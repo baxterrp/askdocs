@@ -1,0 +1,27 @@
+[project]
+name = "askdocs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "robert baxter", email = "baxterrp@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ruff>=0.15.18",
+    "typer>=0.26.7",
+]
+
+[project.scripts]
+askdocs = "askdocs.cli:cli"
+
+[build-system]
+requires = ["uv_build>=0.10.2,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.410",
+    "pytest>=9.1.1",
+    "ruff>=0.15.18",
+]
