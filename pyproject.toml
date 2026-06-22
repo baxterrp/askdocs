@@ -8,6 +8,10 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "anthropic>=0.111.0",
+    "azure-ai-inference>=1.0.0b9",
+    "azure-identity>=1.25.3",
+    "python-dotenv>=1.2.2",
     "ruff>=0.15.18",
     "typer>=0.26.7",
 ]
