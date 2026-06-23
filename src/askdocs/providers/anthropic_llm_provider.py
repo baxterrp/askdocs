@@ -13,14 +13,10 @@ class AnthropicLLMProvider:
         self._tokens_max = int(os.getenv("ANTHROPIC_TOKENS_MAX") or 1024)
 
     def ask(self, prompt: str) -> Iterator[str]:
-        response = self._client.messages.create(
+        with self._client.messages.stream(
             model=self._model,
             max_tokens=self._tokens_max,
             messages=[{"role": "user", "content": prompt}],
-        )
-
-        block = response.content[0]
-        if block.type == "text":
-            yield f" Anthropic's response: {block.text}"
-
-        yield "No text response found."
+        ) as stream:
+            for text in stream.text_stream:
+                yield text
