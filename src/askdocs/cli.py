@@ -12,8 +12,7 @@ def main(
     ],
 ):
     api_provider = get_provider(provider)
-    response = api_provider.ask(prompt)
-    for chunk in response:
+    for chunk in api_provider.ask(prompt):
         print(chunk, end="", flush=True)
 
 
