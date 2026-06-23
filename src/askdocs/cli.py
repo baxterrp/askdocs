@@ -13,7 +13,8 @@ def main(
 ):
     api_provider = get_provider(provider)
     response = api_provider.ask(prompt)
-    typer.echo(response)
+    for chunk in response:
+        print(chunk, end="", flush=True)
 
 
 def cli():

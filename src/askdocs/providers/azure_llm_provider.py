@@ -1,3 +1,6 @@
+from typing import Iterator
+
+
 class AzureLLMProvider:
-    def ask(self, prompt: str) -> str:
-        return f" Asking Azure: {prompt}"
+    def ask(self, prompt: str) -> Iterator[str]:
+        yield f" Asking Azure: {prompt}"

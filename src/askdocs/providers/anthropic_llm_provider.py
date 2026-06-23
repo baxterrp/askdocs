@@ -1,4 +1,5 @@
 import os
+from typing import Iterator
 import anthropic
 
 
@@ -11,7 +12,7 @@ class AnthropicLLMProvider:
         self._model = os.getenv("ANTHROPIC_MODEL") or "claude-haiku-4-5-20251001"
         self._tokens_max = int(os.getenv("ANTHROPIC_TOKENS_MAX") or 1024)
 
-    def ask(self, prompt: str) -> str:
+    def ask(self, prompt: str) -> Iterator[str]:
         response = self._client.messages.create(
             model=self._model,
             max_tokens=self._tokens_max,
@@ -20,6 +21,6 @@ class AnthropicLLMProvider:
 
         block = response.content[0]
         if block.type == "text":
-            return f" Anthropic's response: {block.text}"
+            yield f" Anthropic's response: {block.text}"
 
-        return "No text response found."
+        yield "No text response found."
