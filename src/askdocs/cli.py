@@ -1,7 +1,9 @@
-from dotenv import load_dotenv
 import typer
-from askdocs.providers import get_provider
+import os
 
+from dotenv import load_dotenv
+from askdocs.providers import get_provider
+from askdocs.loader import load_files
 from typing_extensions import Annotated
 
 
@@ -11,6 +13,9 @@ def main(
         str, typer.Option("--provider", help="LLM provider to use (azure | anthropic)")
     ],
 ):
+    for line in load_files(os.getenv("FILE_PATH") or ""):
+        print(line)
+        
     api_provider = get_provider(provider)
     for chunk in api_provider.ask(prompt):
         print(chunk, end="", flush=True)
