@@ -13,17 +13,16 @@ class AzureLLMProvider:
         self._client = OpenAI(
             base_url=self._endpoint,
             api_key=get_bearer_token_provider(
-                DefaultAzureCredential(), 
-                "https://ai.azure.com/.default")
+                DefaultAzureCredential(), "https://ai.azure.com/.default"
+            ),
         )
 
     def ask(self, prompt: str) -> Iterator[str]:
-
         stream = self._client.chat.completions.create(
             model=self._model,
             messages=[{"role": "user", "content": prompt}],
             stream=True,
-            max_tokens=self._tokens_max
+            max_tokens=self._tokens_max,
         )
 
         for chunk in stream:
