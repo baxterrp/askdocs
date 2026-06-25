@@ -10,16 +10,16 @@ class AzureLLMProvider:
         self._endpoint = os.getenv("AZURE_ENDPOINT") or ""
         self._model = os.getenv("AZURE_DEPLOYMENT") or ""
         self._tokens_max = int(os.getenv("AZURE_TOKENS_MAX") or 1024)
-
-    def ask(self, prompt: str) -> Iterator[str]:
-        client = OpenAI(
+        self._client = OpenAI(
             base_url=self._endpoint,
             api_key=get_bearer_token_provider(
                 DefaultAzureCredential(), 
                 "https://ai.azure.com/.default")
         )
 
-        stream = client.chat.completions.create(
+    def ask(self, prompt: str) -> Iterator[str]:
+
+        stream = self._client.chat.completions.create(
             model=self._model,
             messages=[{"role": "user", "content": prompt}],
             stream=True,
@@ -28,6 +28,4 @@ class AzureLLMProvider:
 
         for chunk in stream:
             if chunk.choices and chunk.choices[0].delta.content:
-                delta = chunk.choices[0].delta.content
-                if delta:
-                    yield delta
+                yield chunk.choices[0].delta.content
