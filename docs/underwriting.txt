@@ -1,0 +1,31 @@
+Mortgage underwriting is the process by which a lender evaluates the risk of lending money to a borrower. The underwriter reviews the borrower's financial profile to determine whether the loan meets the lender's guidelines and whether the borrower is likely to repay the debt.
+
+The three pillars of underwriting are capacity, credit, and collateral. Capacity refers to the borrower's ability to repay the loan based on income and existing debt obligations. Credit refers to the borrower's history of managing debt responsibly. Collateral refers to the property being purchased and its value relative to the loan amount.
+
+Loan-to-value ratio, commonly called LTV, measures the loan amount against the appraised value of the property. A loan of two hundred thousand dollars on a property appraised at two hundred fifty thousand dollars results in an LTV of 80 percent. Lower LTV ratios represent less risk to the lender because the borrower has more equity in the property.
+
+Most conventional loans require a minimum down payment of three percent for first-time homebuyers and five percent for repeat buyers. A down payment of twenty percent eliminates the requirement for private mortgage insurance, commonly known as PMI.
+
+Private mortgage insurance protects the lender in the event the borrower defaults on the loan. PMI is typically required when the LTV exceeds 80 percent. The cost of PMI varies but generally ranges from 0.5 percent to 1.5 percent of the loan amount annually.
+
+Credit scores play a significant role in underwriting decisions. Conventional loans typically require a minimum credit score of 620. FHA loans allow scores as low as 580 with a 3.5 percent down payment, or as low as 500 with a ten percent down payment. VA loans do not have a minimum credit score requirement set by the Department of Veterans Affairs, though individual lenders may impose their own overlays.
+
+Compensating factors are positive elements of a borrower's profile that may allow an underwriter to approve a loan that would otherwise fall outside standard guidelines. Common compensating factors include significant cash reserves, a low LTV ratio, a history of making similar housing payments, and minimal increases in monthly housing expense.
+
+Cash reserves are funds remaining after closing that the borrower has available in liquid accounts. Reserves are typically measured in months of principal, interest, taxes, and insurance payments. Many loan programs require two months of reserves at minimum, while jumbo loans may require six to twelve months.
+
+Employment history is a key underwriting consideration. Lenders generally require two years of continuous employment in the same field. Gaps in employment must be explained and documented. Borrowers who recently changed jobs may still qualify if the new position is in the same field and represents a lateral move or advancement.
+
+Self-employed borrowers face additional scrutiny during underwriting. Lenders typically require two years of tax returns, profit and loss statements, and business bank statements. Income for self-employed borrowers is calculated using the average of two years of net income after business expenses, which can result in a lower qualifying income than the borrower's gross revenue suggests.
+
+Gift funds are an acceptable source of down payment funds for many loan programs. The donor must provide a gift letter stating the funds are a gift and not a loan. The donor's bank statements may be required to document the source of the gift funds. Some programs restrict gift funds to family members only.
+
+Appraisals are a required component of the mortgage process. An independent licensed appraiser evaluates the property and provides an opinion of value. The appraiser compares the subject property to recently sold comparable properties in the area. If the appraised value comes in below the purchase price, the borrower may need to negotiate a price reduction, make up the difference in cash, or walk away from the transaction.
+
+Debt that appears on a credit report but is not the borrower's responsibility may sometimes be excluded from the DTI calculation. This is common in situations involving authorized user accounts, cosigned debts where the primary borrower can document they are making payments, or debts that are subject to a divorce decree assigning responsibility to another party.
+
+Mortgage insurance premiums for FHA loans include both an upfront premium and an annual premium. The upfront premium is 1.75 percent of the base loan amount and is typically financed into the loan. The annual premium varies based on loan term, LTV, and loan amount, and is divided into monthly installments added to the mortgage payment.
+
+Conventional loan limits are set annually by the Federal Housing Finance Agency. Loans exceeding these limits are classified as jumbo loans and typically carry stricter underwriting requirements, higher interest rates, and larger down payment requirements. High-cost areas may have higher conforming loan limits than the national baseline.
+
+The clear to close, often abbreviated as CTC, is the final approval issued by the underwriter indicating that all conditions have been satisfied and the loan is ready to fund. Prior to CTC, the underwriter may issue a conditional approval requiring the borrower to provide additional documentation such as letters of explanation, updated bank statements, or proof of insurance.
