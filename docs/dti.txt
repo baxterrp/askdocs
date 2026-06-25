@@ -1,0 +1,31 @@
+Debt-to-income ratio, commonly referred to as DTI, is a personal finance measure that compares an individual's monthly debt payments to their monthly gross income.
+
+Lenders use DTI to evaluate a borrower's ability to manage monthly payments and repay the money they plan to borrow.
+
+A low DTI ratio demonstrates a good balance between debt and income. Conversely, a high DTI ratio signals that a borrower may have too much debt for the amount of income they earn.
+
+Most lenders look for a DTI ratio of 43 percent or lower. Some lenders prefer a DTI of 36 percent or lower, with no more than 28 percent of that debt going toward mortgage payments.
+
+Front-end DTI refers only to housing-related expenses, including mortgage principal, interest, property taxes, and homeowners insurance.
+
+Back-end DTI includes all monthly debt obligations such as housing costs, car loans, student loans, credit card minimum payments, and any other recurring debt.
+
+To calculate DTI, divide total monthly debt payments by gross monthly income. For examplotal two thousand dollars and gross monthly income is six thousand dollars, the DTI is 33percent.
+
+Borrowers with high DTI ratios may need to pay down existing debt before qualifying for a mortgage. Reducing DTI improves loan approval odds and often results in better interest rates.                     
+Conventional loans typically require a maximum DTI of 45 percent, though some lenders allow up to 50 percent with compensating factors such as high credit scores or substantial reserves.
+
+FHA loans allow DTI ratios up to 57 percent in some cases, making them more accessible to borrowers with higher debt loads.
+
+VA loans do not have a hard DTI cap but generally prefer ratios below 41 percent. Lenders may still approve higher ratios if residual income requirements are met.
+
+USDA loans typically cap DTI at 41 percent for the back-end ratio, though exceptions can be made with strong credit profiles.
+
+Improving DTI can be achieved by paying down existing debt, avoiding new debt before applying for a mortgage, or increasing income through additional employment or raises.                                  
+Student loans significantly impact DTI calculations. Lenders use either the actual payment amount or a percentage of the outstanding balance to calculate the monthly obligation, depending on loan type and program guidelines.
+
+Income used in DTI calculations must be documented and verified. Acceptable income sources include base salary, overtime, bonuses, commissions, rental income, and self-employment income, each with specific documentation requirements.
+
+Gross income is used in DTI calculations, not net income. This means pre-tax earnings are the baseline for all DTI ratio determinations by lenders.
+
+Debt obligations that will be paid off within a certain number of months, typically ten to twelve, may be excluded from DTI calculations depending on loan program guidelines.
