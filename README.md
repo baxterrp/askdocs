@@ -5,15 +5,11 @@ A typed Python CLI that takes a question, calls a deployed LLM with proper auth,
 ## Usage
 
 ```
-uv run askdocs "What is a debt-to-income ratio?"
+uv run askdocs "What is a debt-to-income ratio?" --provider anthropic
 ```
 
 ```
-uv run askdocs "Summarize this loan application" --provider anthropic
-```
-
-```
-uv run askdocs "What are the CFPB complaint categories?" --json
+uv run askdocs "Summarize this loan application" --provider azure
 ```
 
 ## Auth
@@ -22,9 +18,15 @@ Authentication follows the same pattern as repostat — secrets are read from en
 
 ```
 # .env
-AZURE_ENDPOINT=https://your-foundry-project.openai.azure.com/
-AZURE_DEPLOYMENT=gpt-4o
-ANTHROPIC_API_KEY=your_key_here        # only needed with --provider anthropic
+AZURE_ENDPOINT=https://your-foundry-project.services.ai.azure.com/openai/v1
+AZURE_DEPLOYMENT=gpt-4o-mini
+AZURE_TOKENS_MAX=1024                  # optional, defaults to 1024
+
+ANTHROPIC_API_KEY=your_key_here
+ANTHROPIC_MODEL=claude-haiku-4-5-20251001  # optional, defaults to haiku
+ANTHROPIC_TOKENS_MAX=1024              # optional, defaults to 1024
+
+FILE_PATH=docs                         # directory containing .txt files to ground answers
 ```
 
 Azure uses `DefaultAzureCredential` — run `az login` for local development. No raw API keys in Azure.
@@ -47,7 +49,7 @@ uv run pyright src     # type check
 
 ## Stack
 
-- [azure-ai-inference](https://pypi.org/project/azure-ai-inference/) — Azure model client with streaming
+- [openai](https://pypi.org/project/openai/) — OpenAI-compatible client pointed at Azure AI Foundry
 - [azure-identity](https://pypi.org/project/azure-identity/) — `DefaultAzureCredential` for keyless auth
 - [anthropic](https://pypi.org/project/anthropic/) — direct Anthropic SDK for multi-provider support
 - [typer](https://typer.tiangolo.com/) — type-hint-driven CLI
